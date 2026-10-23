@@ -1,0 +1,11 @@
+@EndUserText.label: 'service definition for travel'
+define service Zser_travel_u {
+  expose zc_travel_u;
+  expose zc_book_u;
+  expose /DMO/I_Carrier;
+  expose /DMO/I_Connection;
+  expose /DMO/I_Travel_Status_VH;
+  expose I_Currency;
+  expose /DMO/I_Agency;
+  expose /DMO/I_Customer;
+}
